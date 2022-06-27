@@ -62,17 +62,57 @@ Code integration
     Inputs connected to RPi, outputs connected to Arduino. RPi runs code to calculate accelerations based on controls, those accelerations are pushed to Arduino which actuates the motors
 
     Option 2: 
-    All inputs and outputs connected to RPi, no arduino
+    All inputs and outputs connected to RPi, no Arduino
+
+    Option 3:
+    All inputs and outputs connected to Arduino, RPi simply controls UI and selecting control method
 
 RPi
+    
+    Pinout
+    
+    How to program code
 
-    For option 1, need to verify:
+    How to program gui
 
-    Accelerations calculated by RPi and pushed to the Arduino are accurate the LQR/ML models
+    Implement LQR
 
-    LQR calculations are correct
+    Implement LQR + Kalman Filter
+
+    Implement NN
+    
+    For option 1:
+
+    How to send Accelerations to Arduino 
+
+    Accelerations calculated by RPi and pushed to the Arduino are accurate to the LQR/ML models
 
     Latency b/t RPi and Arduino is fine
     
-    For option 2, need to verify:
+    For option 2:
+
+    Latency/Update Frequency is fine
+
+Arduino
+
+    Pinout
+
+    Option 1:
+
+    Able to read accelerations from RPi and can actuate motors with low latency
+    
+    Option 3:
+    
+    Implement LQR
+
+    Implement LQR + Kalman Filter
+
+    Implement NN
+
+
+
+
+
+    
+    
 
