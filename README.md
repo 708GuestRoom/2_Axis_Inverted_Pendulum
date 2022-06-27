@@ -24,7 +24,7 @@ The new project will:
   
     Be able to switch between the two systems as well as configure the K values for the LQR controls with an RPi
   
-    Integrate the controls with the motors/electronics using an Arduino
+    Integrate the controls with the motors/electronics using an Arduino and/or RPi
   
     Be able to interface the RPi with the Arduino
 
@@ -32,7 +32,7 @@ Preliminary design choices:
 
 Chassis
     
-    Corexy from kit
+    Corexy from kit, Vez3D or Hevort system
 
 Power
 
@@ -43,8 +43,6 @@ Motors
     From capstone, need to fill in
 
 Wiring
-
-    From capstone, need to fill in 
 
     Silicone wires, soldered togther
 
