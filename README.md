@@ -1,5 +1,7 @@
 # 2_Axis_Inverted_Pendulum
 
+Wiki contains project logs and some high level systems documentation.
+
 Continuation of my senior capstone project. The original project ended in moderate success.
 
 The original project: 
